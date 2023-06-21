@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding:0;
+}
+body{
+   background-color: coral;
+    display: flex;
+}
+.div-container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 8%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.img-char {
+    width: 200px;
+    border-radius: 20px 50px 20px 50px;
+    box-shadow: 8px 8px red;
+    border: 1px solid red;
+    transition: filter 0.5s, transform 0.5s;
+}
+.img-char:hover {
+    filter: brightness(120%);
+    transform: scale(1.1)
+}
